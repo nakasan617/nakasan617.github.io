@@ -1,6 +1,6 @@
 
 layout: page
 title: "HOME"
-permallink: /home/
+permalink: /home/
 
 ## Homepage of Yuta Nakamura ##
