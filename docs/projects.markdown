@@ -6,3 +6,4 @@ permalink: /projects/
 
 # Projects #
 
+## COMING SOON ##
