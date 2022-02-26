@@ -3,7 +3,28 @@ layout: page
 title: Publications 
 permalink: /publications/
 ---
-<!--
+<script type="text/javascript">
+
+  function emitEvent(element, eventName) {
+    var worked = false;
+    if(document.createEvent) { // all browsers
+      var e = document.createEvent("MouseEvents");
+      e.initMouseEvent(eventName, true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+      worked = element.dispatchEvent(e);
+    } else if (element.fireEvent) { // ie
+      worked = element.fireEvent("on" + eventName);
+    }
+    if (!worked) { // unknown browser / error
+      alert("It didn't worked in your browser.");
+    }
+  }
+
+  function openDropdown(id){
+      var element = document.getElementById(id);
+      emitEvent(element, 'mousedown');
+  }
+</script>
+
 Below are the published work I have so far
 
 ### Content Defined Merkle Tree (2021) ###
@@ -15,7 +36,6 @@ As I was to implement Merkle tree in [Sciunit](https://sciunit.run/), I realized
 [SPADE](https://github.com/ashish-gehani/SPADE) and Sciunit use system calls to trace the provenance of the executions. Therefore this is our first attempt to look at the system call trace to make sure the two executions are aligned. 
 
 [Link to Provenance Alignment](https://www.usenix.org/conference/tapp2020/presentation/nakamura)
--->
 <h3  class="pubyear">In the Pipeline</h3>
 <ol class="bibliography">
     <li><b>Asiaee*, A.</b>, Abrams*, Z. B., Nakayiza, S., Sampath, D., &amp; Coombes, K. R. (2019). <i>Identification and comparison of genes differentially regulate by transcription factors and miRNAs</i>. 
