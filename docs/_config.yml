@@ -18,15 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Yuta Nakamura's Website
-email: ynakamu1@depaul.edu
+title: Yuta Nakamura
+email: yutanak6@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     This is Yuta Nakamura's Website.
 domain: nakasan617.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: yutanak6 
 github_username:  nakasan617 
+linkedin_url: https://www.linkedin.com/in/yuta-nakamura-93b9b778/ 
 
 # Build settings
 theme: minima
