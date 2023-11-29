@@ -1,0 +1,12 @@
+---
+title: Content-Defined<br> Merkle Tree (CDMT)
+layout: default
+modal-id: 1
+date: December 2020
+img: cabin.png
+alt: image-alt
+project-date: June 2019 - December 2020 
+# client: Start Bootstrap
+category: Data Structure 
+description: <div align="left">Containerization simplifies the sharing and deployment of applications when environments change in the software delivery chain. To deploy an application, container delivery methods push and pull container images. These methods operate on file and layer (set of files) granularity, and introduce redundant data within a container. Several container operations such as upgrading, installing, and maintaining become inefficient, because of copying and provisioning of redundant data. In this paper, we reestablish recent results that block-level deduplication reduces the size of individual containers, by verifying the result using content-defined chunking. Block-level deduplication, however, does not improve the efficiency of push/pull operations which must determine the specific blocks to transfer. We introduce a content-defined Merkle Tree (CDMT) over deduplicated storage in a container. CDMT indexes deduplicated blocks and determines changes to blocks in logarithmic time on the client. CDMT efficiently pushes and pulls container images from a registry, especially as containers are upgraded and (re-)provisioned on a client. We also describe how a registry can efficiently maintain the CDMT index as new image versions are pushed. We show the scalability of CDMT over Merkle Trees in terms of disk and network I/O savings using 15 container images and 233 image versions from Docker Hub.</div> <br>published in HiPC 2020<br><a href=https://arxiv.org/abs/2104.02158>link to the publication</a><br><a href=https://github.com/depaul-dice/CDMT>code base</a>
+---

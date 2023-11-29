@@ -1,0 +1,12 @@
+---
+title: Provenance Alignment
+layout: default
+modal-id: 2
+date: December 2019 - June 2022 
+img: cake.png
+alt: image-alt
+project-date: December 2019 - June 2022
+# client: Start Bootstrap
+category: Data Provenance
+description: <div align="left">Workflow management systems (WMS) help automate and coordinate scientific modules and monitor their execution. WMSes are also used to repeat a workflow application with different inputs to test sensitivity and reproducibility of runs. However, when differences arise in outputs across runs, current WMSes do not audit sufficient provenance metadata to determine where the execution first differed. This increases diagnostic time and leads to poor quality diagnostic results. In this paper, we use program specification to precisely determine locations where workflow execution differs. We use existing provenance audited to isolate modules where execution differs. We show that using program specification comes at some increased storage overhead due to mapping of provenance data flows onto program specification, but leads to better quality diagnostics in terms of the number of differences found and their location relative to comparing provenance metadata audited within current WMSes.</div><br><a href=https://dice.cs.depaul.edu/pdfs/pubs/C32.pdf>link to the publication</a><br><a href=https://github.com/depaul-dice/ProvScope> code base</a>
+---

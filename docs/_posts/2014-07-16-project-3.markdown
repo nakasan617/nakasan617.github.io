@@ -1,0 +1,12 @@
+---
+title: Redefining "Diff"
+layout: default
+modal-id: 3
+date: October 2023
+img: circus.png
+alt: image-alt
+project-date: November 2022 - October 2023 
+# client: Start Bootstrap
+category: Data Provenance
+description: <div align="left">Data provenance, when audited at the operating system level, generates a large volume of low-level events. Current provenance systems infer causal flow from these event traces, but do not infer application structure, such as loops and branches. The absence of these inferred structures decreases accuracy when comparing two event traces, leading to low-quality answers from a provenance system. In this paper, we infer nested natural and unnatural loop structures over a collection of provenance event traces. We describe an `unrolling method' that uses the inferred nested loop structure to systematically mark loop iterations. Our loop-based unrolling improves the accuracy of trace comparison by 20-70% over trace comparisons that do not rely on inferred structures.</div><br>published in CIKM 2023<br><a href="https://dl.acm.org/doi/10.1145/3583780.3615171">link to publication</a>
+---
