@@ -3,7 +3,7 @@ title: Provenance Alignment
 layout: default
 modal-id: 2
 date: December 2019 - June 2022 
-img: cake.png
+img: ProvScope.png
 alt: image-alt
 project-date: December 2019 - June 2022
 # client: Start Bootstrap

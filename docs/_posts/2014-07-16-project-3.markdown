@@ -3,7 +3,7 @@ title: Redefining "Diff"
 layout: default
 modal-id: 3
 date: October 2023
-img: circus.png
+img: CIKM.png
 alt: image-alt
 project-date: November 2022 - October 2023 
 # client: Start Bootstrap
